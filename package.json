@@ -1,0 +1,22 @@
+{
+  "name": "playwrightdouglasautomation",
+  "version": "1.0.0",
+  "description": "Automation Suite for Douglas Shopping Site",
+  "main": "index.js",
+  "scripts": {
+    "regression": "npx playwright test",
+    "generateallureReport": "npx allure generate ./allure-results --clean",
+    "openallureReport": "npx allure open ./allure-report"
+  },
+  "author": "Mohammed Shafiq Ur Rahman",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.50.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.9",
+    "allure-commandline": "^2.33.0",
+    "allure-playwright": "^3.2.0"
+  }
+}
